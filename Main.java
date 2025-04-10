@@ -8,6 +8,7 @@ public class Main {
     public static int[][] rotatedColors = new int[SIZE][SIZE];
 
     public static void main(String[] args) {
+        System.out.print("Введите угол поворота:");
         Scanner sc = new Scanner(System.in);
         int rotated = sc.nextInt();
         setMatrix(colors);

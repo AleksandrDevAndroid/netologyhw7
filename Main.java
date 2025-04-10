@@ -28,7 +28,7 @@ public class Main {
 
     public static void rotatedMatrix(int[][] colors, int[][] rotatedColors, int rotated) {
         if (rotated != 90 && rotated != 180 && rotated != 270) {
-            System.out.println("Угол поворота должен быть 90, 180 или 270");
+            System.out.println("Угол поворота должен быть 90, 180 или 270 градусов.");
             System.exit(0);
         }
         if (rotated == 90) {
